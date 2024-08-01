@@ -28,7 +28,7 @@ C         - Pop an external window for presentation
 Instructor notes are included in plain text, narrative parts are in **bold**. You can use the narrative quotes or change them to suit your own presentation style.
 
 ---
-layout: true
+layout: false
 background-image: url(images/background-image.png)
 background-size: contain
 .footer[
