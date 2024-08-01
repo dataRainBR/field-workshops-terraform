@@ -1,6 +1,7 @@
 name: AWS-Terraform-Workshop
 class: center
 count: false
+background-image: url(images/background-image.png)
 ![:scale 60%](images/tf_aws.png)
 <br><br>
 # AWS Terraform Workshop
