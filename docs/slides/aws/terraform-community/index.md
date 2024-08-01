@@ -1,6 +1,7 @@
 name: AWS-Terraform-Workshop
 class: center
 count: false
+background-image: url(image/backgroud-image.png)
 ![:scale 60%](images/tf_aws.png)
 <br><br>
 # AWS Terraform Workshop
@@ -29,7 +30,6 @@ Instructor notes are included in plain text, narrative parts are in **bold**. Yo
 
 ---
 layout: true
-background-image: url(image/backgroud-image.png)
 
 .footer[
 - Copyright © 2021 HashiCorp
