@@ -99,7 +99,7 @@ We chose the AWS Console as a starting point because most AWS users will be fami
 ---
 name: AWS-Console-Provision
 # Method 1: AWS Console (GUI)
-![:scale 60%](images/aws_provision.png)
+![:scale 70%](images/aws_provision.png)
 
 ???
 **This should look familiar if you've ever used AWS. From the EC2 Panel, you click on Instances > Launch Instance, and you'll see a list of different AWS Machine Images (AMIs) you can use to provision your Instance. Some of these are provided by AWS, others are provided by third parties in the marketplace. You either search or browse for the thing you need, and click on it. Easy.**
@@ -107,7 +107,7 @@ name: AWS-Console-Provision
 ---
 name: AWS-Console-Provision-2
 # Method 1: AWS Portal (GUI)
-![:scale 60%](images/aws_provision_2.png)
+![:scale 55%](images/aws_provision_2.png)
 
 ???
 **Once you've chosen your AMI, you will fill in some more details - the instance type, the VPC you want it to launch in, any associated IAM roles you want to assign it, external storage, tags, security groups... it's a long list of options! The AWS console can be handy for spinning up individual VMs and dev or test environments. The good news is that it's really easy to spin up infrastructure this way. The bad news is that it doesn't scale, and chances are that nobody is keeping track of what got built.**
