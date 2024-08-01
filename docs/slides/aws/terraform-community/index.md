@@ -29,6 +29,7 @@ Instructor notes are included in plain text, narrative parts are in **bold**. Yo
 
 ---
 layout: true
+background-image: url(image/backgroud-image.png)
 
 .footer[
 - Copyright © 2021 HashiCorp
