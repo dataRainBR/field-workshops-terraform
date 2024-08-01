@@ -39,10 +39,9 @@ background-size: contain
 ---
 name: Introductions
 # Introductions
-- Your Name
-- Job Title
-- Automation Experience
-- Favorite Text Editor
+- Marcelo Leandro Tavares Medeiros
+- Head Engineer
+- VIM 
 
 ???
 Use this slide to introduce yourself, give a little bit of your background story, then go around the room and have all your participants introduce themselves.
@@ -54,28 +53,16 @@ The favorite text editor question is a good ice breaker, but perhaps more import
 **If you don't have a favorite text editor, that's okay! Our cloud lab has Visual Studio Code preinstalled. VSC is a free programmer's text editor for Microsoft, and it has great Terraform support. Most of this workshop will be simply copying and pasting code, so if you're not a developer don't fret. Terraform is easy to learn and fun to work with.**
 
 ---
-name: Link-to-Slide-Deck
-# The Slide Deck
-<br><br><br>
-Follow along on your own computer at this link:
-
-### <https://hashicorp.github.io/field-workshops-terraform/slides/aws/terraform-community/>
-
----
 name: Table-of-Contents
 # Table of Contents
 
 1. Intro to Terraform & Demo
 1. Terraform Basics<br>
-👩‍🔬 **Lab - Setup and Basic Usage**
 1. Terraform In Action: plan, apply, destroy
 1. Organizing Your Terraform Code<br>
-🧪 **Lab - Terraform in Action**<br>
 1. Provision and Configure AWS Instances<br>
-🔬 **Lab - Provisioning with Terraform**<br>
 1. Manage and Change Infrastructure State<br>
 1. HCP Terraform<br>
-⚗️ **Lab - Terraform Remote State**
 
 
 ???
@@ -112,7 +99,7 @@ We chose the AWS Console as a starting point because most AWS users will be fami
 ---
 name: AWS-Console-Provision
 # Method 1: AWS Console (GUI)
-![:scale 70%](images/aws_provision.png)
+![:scale 60%](images/aws_provision.png)
 
 ???
 **This should look familiar if you've ever used AWS. From the EC2 Panel, you click on Instances > Launch Instance, and you'll see a list of different AWS Machine Images (AMIs) you can use to provision your Instance. Some of these are provided by AWS, others are provided by third parties in the marketplace. You either search or browse for the thing you need, and click on it. Easy.**
