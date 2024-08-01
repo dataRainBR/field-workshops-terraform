@@ -1,8 +1,6 @@
 name: AWS-Terraform-Workshop
 class: center
 count: false
-background-image: url(images/background-image.png)
-background-size: contain
 ![:scale 60%](images/tf_aws.png)
 <br><br>
 # AWS Terraform Workshop
@@ -31,9 +29,11 @@ Instructor notes are included in plain text, narrative parts are in **bold**. Yo
 
 ---
 layout: true
-
+background-image: url(images/background-image.png)
+background-size: contain
 .footer[
 - Copyright © 2021 HashiCorp
+- right: 80px 
 - ![:scale 100%](https://hashicorp.github.io/field-workshops-assets/assets/logos/HashiCorp_Icon_Black.svg)
 ]
 
