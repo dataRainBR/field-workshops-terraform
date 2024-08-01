@@ -28,13 +28,13 @@ C         - Pop an external window for presentation
 Instructor notes are included in plain text, narrative parts are in **bold**. You can use the narrative quotes or change them to suit your own presentation style.
 
 ---
-layout: false
+layout: true
 background-image: url(images/background-image.png)
 background-size: contain
 .footer[
 - Copyright © 2021 HashiCorp 
 - ![:scale 100%](https://hashicorp.github.io/field-workshops-assets/assets/logos/HashiCorp_Icon_Black.svg)
-] { right: 90px }
+]
 
 ---
 name: Introductions
