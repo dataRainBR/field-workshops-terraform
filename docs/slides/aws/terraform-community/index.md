@@ -343,8 +343,6 @@ Terraform code (HCL) is easy to learn and easy to read. It is also 50-70% more c
 Name: Why-Terraform-1
 # Why Terraform?
 .center[![:scale 60%](images/1password_terraform.png)]
-padding-left: 90px;
-font-size: 1.8rem
 .center[### <https://blog.1password.com/terraforming-1password/>]
 
 ???
@@ -408,20 +406,6 @@ Name: Why-Terraform-on-AWS
 
 ???
 **Every modern IT organization has to deal with risk. It's a balancing act between security and usability. You can make it so secure nobody can use it, or on the other end you have a free for all where users can do whatever they want, but are putting the entire cloud account in jeopardy due to risky behavior. Terraform allows you to reduce risk by abstracting your users away from the web UI or API. Instead we provide a safe, auditable abstraction layer that lets users get their work done in a secure and safe way, that doesn't grant unnecessary privileged access.**
-
----
-name: Live-Demo
-class: title
-# Live Demo
-
-???
-**Let's do a short demo! I'm going to show you how easy it can be to provision infrastructure in AWS. I'll do the demo on one of the lab workstations that you'll be using for this training.**
-
-**This is a workstation just like the ones you'll be using for today's workshops. I'm going to run a terraform apply command to build out the lab environment. We're actually cheating a little bit here, as we prebaked most of the environment before class to save us some time. Just like your favorite cooking show!**
-
-**You can see the results of the Terraform run here in my shell. This output is showing me the URL of the application server I just built. And if we pop over here to the AWS portal you'll see all of the different parts of my lab environment.**
-
-**This is Infrastructure as code. By the end of today's training you'll be able to create your own infrastructure using Terraform.**
 
 ---
 
@@ -616,23 +600,6 @@ This list goes from highest precedence (1) to lowest (5).
    specified, prompt the user
    for entry
 ```
----
-name: lab-exercise-0
-# 👩‍💻 Getting Started with Instruqt
-<br><br>
-[Instruqt](https://instruqt.com) is the HashiCorp training platform. Visit the link below for a short tutorial, or if you're already familiar with Instruqt you can skip to the next slide.
-
-[https://instruqt.com/instruqt/tracks/getting-started-with-instruqt](https://instruqt.com/instruqt/tracks/getting-started-with-instruqt)
-
----
-name: lab-exercise-1
-# 👩‍💻 Lab Exercise: Terraform Basics
-<br><br>
-In this lab you'll learn how to set up your editor, use the Terraform command line tool, integrate with AWS, and do a few dry runs with different settings.
-
-Your instructor will provide the URL for the lab environment.
-
-🛑 **STOP** after you complete the second quiz.
 ---
 name: chapter-2-review
 # 📝 Chapter 2 Review
@@ -896,16 +863,7 @@ The region and prefix variables are required to create the resource group, which
 This is a good spot to talk a bit about how the dependency graph gets formed.
 
 ---
-name: lab-exercise-2a
-# 👩‍💻 Lab Exercise: Terraform in Action
-Let's use Terraform to build, manage, and destroy AWS resources. In this lab exercise you'll build the HashiCat application stack by running the `terraform apply` command.
 
-🛑 **STOP** after you complete the third quiz.
-
-???
-**We will explore the Terraform Graph together once everyone has completed the lab. Once you have the graph running in your instruqt lab stop there.**
-
----
 name: chapter-3-review
 # 📝 Chapter 3 Review
 
@@ -913,7 +871,6 @@ In this chapter we:
 * Learned about Terraform resources
 * Ran terraform plan, graph, apply and destroy
 * Learned about dependencies
-* Viewed a graph of the lab
 * Looked at main.tf, variables.tf and outputs.tf
 * Built the Meow World application
 
@@ -1002,15 +959,6 @@ Terraform provisioners like remote-exec are great when you need to run a few sim
 Provisioners only run the first time a Terraform run is executed. In this sense, they are not idempotent. If you need ongoing state management of VMs or servers that are long-lived, we recommend using a config management tool.
 
 On the other hand, if you want immutable infrastructure you should consider using our [Packer](https://packer.io) tool.
-
----
-name: lab-exercise-2b
-# 👩‍💻 Lab Exercise: Provisioners, Variables and Outputs
-In part two of the lab we'll use a provisioner to install a new software package. We will also explore variables and outputs.
-
-Return to the training lab and continue where you left off.
-
-🛑 **STOP** after you complete the fourth quiz.
 
 ---
 name: chapter-4-review
@@ -1164,13 +1112,6 @@ class: compact
 **Remote Execution** - Terraform commands are run in a HCP Terraform container environment. All variables are stored in the remote workspace. Code can be stored in a Version Control System repository. Limited to 1 concurrent run for free tier users.
 
 **Agent Execution** *(Enterprise only)* - HCP Terraform Agents allow HCP Terraform and Enterprise to communicate with isolated, private, or on-premises infrastructure. The agent architecture is pull-based, so no inbound connectivity is required. Any agent you provision will poll HCP Terraform or Terraform Enterprise for work and carry out execution of that work locally.
-
----
-name: lab-exercise-2c
-# 👩‍💻 Lab Exercise: HCP Terraform
-In the final part of the second lab we'll create a free HCP Terraform account and enable remote storage of our state file.
-
-Return to the training lab and continue where you left off.
 
 ---
 name: the-end
