@@ -344,7 +344,7 @@ Name: Why-Terraform-1
 # Why Terraform?
 .center[![:scale 60%](images/1password_terraform.png)]
 
-.center[![:padding-left 95px]### <https://blog.1password.com/terraforming-1password/>]
+.center[![:padding-left: 95px]### <https://blog.1password.com/terraforming-1password/>]]
 
 ???
 1Password did a great blog post illustrating the difference between AWS Cloudformation (JSON) and Terraform.
