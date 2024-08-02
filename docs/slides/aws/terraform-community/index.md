@@ -343,7 +343,8 @@ Terraform code (HCL) is easy to learn and easy to read. It is also 50-70% more c
 Name: Why-Terraform-1
 # Why Terraform?
 .center[![:scale 60%](images/1password_terraform.png)]
-
+padding-left: 90px;
+font-size: 1.8rem
 .center[### <https://blog.1password.com/terraforming-1password/>]
 
 ???
